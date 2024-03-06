@@ -277,6 +277,7 @@ nav ul li a {
 
 .portofolio-tags {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
     margin: 1rem 0;
 }
@@ -406,6 +407,10 @@ nav ul li a {
 
 .btn-submit:hover {
     background: var(--primaryIconColorHover);
+}
+
+.contact-item-detail {
+    padding: 1rem 0;
 }
 
 .contact-item-icon {
